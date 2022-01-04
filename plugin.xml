@@ -1,0 +1,12 @@
+<library path="src">
+  <class name="Rosbag Control" type="rqt_rosbag_control.rqt_rosbag_control.RosbagControlPlugin" base_class_type="rqt_gui_py::Plugin">
+    <description>
+      Control rosbag playback.
+    </description>
+    <qtgui>
+      <label>Rosbag Control</label>
+      <icon type="theme">system-help</icon>
+      <statustip>Control rosbab playback.</statustip>
+    </qtgui>
+  </class>
+</library>

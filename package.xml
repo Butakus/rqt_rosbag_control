@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>rqt_rosbag_control</name>
+  <version>0.0.0</version>
+  <description>The rqt_rosbag_control package</description>
+  <maintainer email="franmore@ing.uc3m.es">Francisco Miguel Moreno</maintainer>
+  <license>MIT</license>
+
+  <build_depend>rqt_gui_py</build_depend>
+  <exec_depend>rqt_gui_py</exec_depend>
+  <exec_depend>ament_index_python</exec_depend>
+  <exec_depend>python_qt_binding</exec_depend>
+  <export>
+    <build_type>ament_python</build_type>
+    <rqt_gui plugin="${prefix}/plugin.xml"/>
+  </export>
+</package>
